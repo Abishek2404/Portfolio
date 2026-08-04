@@ -1,0 +1,92 @@
+[
+  {
+    "id": "twin-peaks-tech-solutions",
+    "title": "Twin Peaks Tech Solutions",
+    "category": "Web Development",
+    "description": "A premium company website showcasing services, portfolio, team, and digital solutions with a modern responsive design and smooth user experience.",
+    "image": "/projects/twin-peaks.png",
+    "stack": ["React", "TypeScript", "Tailwind CSS", "Vite"],
+    "github": "https://github.com/Abishek2404/TwinPeaksTechSolution",
+    "demo": "https://twin-peaks-tech-solution.vercel.app"
+  },
+  {
+    "id": "second-brain-ai",
+    "title": "SecondBrain AI",
+    "category": "AI Platform",
+    "description": "An AI-powered learning assistant that transforms study materials into notes, quizzes, flashcards, and personalized learning paths with intelligent progress tracking.",
+    "image": "/projects/secondbrain.png",
+    "stack": ["React", "Node.js", "MongoDB", "Gemini API"],
+    "github": "https://github.com/Abishek2404/SecondBrainAI",
+    "demo": "https://secondbrainai-afbz.onrender.com"
+  },
+  {
+    "id": "i-skills-healthcare-solutions",
+    "title": "I Skills Healthcare Solutions",
+    "category": "Web Development",
+    "description": "A professional healthcare company website designed to showcase medical staffing, training programs, healthcare services, and business information.",
+    "image": "/projects/healthcare.png",
+    "stack": ["React", "Tailwind CSS", "Node.js"],
+    "github": "https://github.com/Abishek2404/i-skils-healthcare-solutions",
+    "demo": "https://i-skils-healthcare-solutions.vercel.app"
+  },
+  {
+    "id": "resume-builder",
+    "title": "AI Resume Builder",
+    "category": "AI Platform",
+    "description": "An intelligent resume builder that helps users create ATS-friendly resumes with AI-assisted content generation, professional templates, and real-time editing.",
+    "image": "/projects/resume.png",
+    "stack": ["React", "Node.js", "Gemini API","MongoDB","Tailwind CSS"],
+    "github": "https://github.com/Abishek2404/Resume-Builder-",
+    "demo": "https://resume-builder-ten-roan.vercel.app"
+  },
+  {
+    "id": "employee-task-tracker",
+    "title": "Employees Task Report Tracker",
+    "category": "Business Application",
+    "description": "A task management system that tracks employee assignments, monitors task completion, generates reports, and improves team productivity through centralized management.",
+    "image": "/projects/tasktracker.png",
+    "stack": ["React", "Node.js", "MongoDB", "Express.js"],
+    "github": "https://github.com/Abishek2404/Employees-Task-Closing-Report-Tracker",
+    "demo": "https://employeestasktracker.vercel.app"
+  },
+  {
+    "id": "book-recommender",
+    "title": "Personalized Book Recommender",
+    "category": "AI/ML",
+    "description": "A content-based recommendation engine that suggests books using cosine similarity and machine learning, providing personalized reading recommendations.",
+    "image": "/projects/books.png",
+    "stack": ["Python", "Pandas", "Scikit-learn", "Streamlit"],
+    "github": "https://github.com/Abishek2404/Personalized-Book-Recommender",
+    "demo": "https://personalized-book-recommender-23.streamlit.app"
+  },
+  {
+    "id": "voice-ai-assistant",
+    "title": "Divi Voice AI",
+    "category": "Generative AI",
+    "description": "A real-time voice assistant powered by Gemini Live API featuring natural conversations, speech-to-speech interaction, memory, and context-aware AI responses.",
+    "image": "/projects/voiceai.png",
+    "stack": ["TypeScript", "HTML","JavaScript","CSS", "Gemini Live API", "MongoDB"],
+    "github": "https://github.com/Abishek2404/Divi-voice-AI",
+    "demo": "https://divi-voice-ai.vercel.app"
+  },
+  {
+    "id": "business-services",
+    "title": "Business Services Website",
+    "category": "Frontend",
+    "description": "A modern business landing page designed to showcase digital services, company offerings, testimonials, and lead generation with responsive UI.",
+    "image": "/projects/business.png",
+    "stack": ["HTML", "CSS"],
+    "github": "https://github.com/Abishek2404/",
+    "demo": "https://abishek2404.github.io/Business-Services/"
+  },
+  {
+    "id": "best-friend-day",
+    "title": "Best Friend Day",
+    "category": "Creative Web",
+    "description": "A beautifully designed celebration website created for Friendship Day featuring interactive animations, heartfelt messages, and responsive design.",
+    "image": "/projects/friendship.png",
+    "stack": ["HTML", "CSS", "TypeScript"],
+    "github": "https://github.com/Abishek2404/Best-Friend-Day-",
+    "demo": "https://best-friend-day-lac.vercel.app"
+  }
+]

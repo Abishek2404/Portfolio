@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: "Inter", system-ui, sans-serif;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-text antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  ::selection {
+    @apply bg-accent/20 text-primary;
+  }
+
+  /* Visible keyboard focus states everywhere */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* Respect reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-24 md:py-32;
+  }
+
+  .container-narrow {
+    @apply mx-auto max-w-3xl px-6;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-sm font-semibold tracking-wide text-accent;
+  }
+
+  .eyebrow::before {
+    content: "";
+    @apply h-1.5 w-1.5 rounded-full bg-accent;
+  }
+
+  .heading-underline {
+    @apply mt-4 h-1 w-14 rounded-full bg-accent;
+  }
+
+  .card-surface {
+    @apply rounded-2xl border border-border bg-white shadow-soft;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-sm font-semibold text-white shadow-card transition-all duration-300 hover:shadow-card-hover hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-white px-6 py-3.5 text-sm font-semibold text-primary transition-all duration-300 hover:border-accent hover:text-accent hover:-translate-y-0.5 active:translate-y-0;
+  }
+}
+
+/* Custom scrollbar, kept subtle and on-brand */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

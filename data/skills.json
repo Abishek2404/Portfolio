@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "title": "Frontend",
+      "icon": "code",
+      "items": ["HTML5", "CSS3 / Tailwind", "JavaScript (ES6+)", "TypeScript", "React.js", "Next.js"]
+    },
+    {
+      "title": "Backend",
+      "icon": "server",
+      "items": ["Node.js", "Express.js", "REST APIs", "JWT Auth", "GraphQL"]
+    },
+    {
+      "title": "Database",
+      "icon": "database",
+      "items": ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Redis"]
+    },
+    {
+      "title": "Tools",
+      "icon": "wrench",
+      "items": ["Git & GitHub", "VS Code", "Figma", "Docker", "Vercel"]
+    },
+    {
+      "title": "Programming",
+      "icon": "brain",
+      "items": ["Data Structures", "OOP Concepts", "Clean Code", "Agile / Scrum"]
+    }
+  ],
+  "proficiency": [
+    { "name": "JavaScript", "level": 90 },
+    { "name": "TypeScript", "level": 82 },
+    { "name": "React / Next.js", "level": 88 },
+    { "name": "Node.js", "level": 78 },
+    { "name": "Tailwind CSS", "level": 92 },
+    { "name": "MongoDB", "level": 75 },
+    { "name": "AI/ML", "level": 70 },
+    { "name": "LLM", "level": 65 }
+  ],
+  "logos": [
+    { "name": "Git", "imageUrl": "https://cdn.simpleicons.org/git/F05032" },
+    { "name": "GitHub", "imageUrl": "https://cdn.simpleicons.org/github/181717" },
+    { "name": "VS Code", "imageUrl": "/vs-code.png" },
+    { "name": "Figma", "imageUrl": "/figma.png" },
+    { "name": "Firebase", "imageUrl": "/firebase.png" },
+    { "name": "Vercel", "imageUrl": "https://cdn.simpleicons.org/vercel/000000" },
+    { "name": "Docker", "imageUrl": "https://cdn.simpleicons.org/docker/2496ED" },
+    { "name": "Postman", "imageUrl": "https://cdn.simpleicons.org/postman/FF6C37" },
+    {"name":"Power Bi", "imageUrl":"/power-bi.png"},
+    {"name":"LangChain", "imageUrl":"/langchain.png"},
+    {"name":"AWS", "imageUrl":"/aws.png"},
+    {"name":"n8n", "imageUrl":"/n8n.png"}
+  ]
+}

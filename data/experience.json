@@ -1,0 +1,54 @@
+{
+  "timeline": [
+    {
+      "period": "2026 — Present",
+      "label": "Founder & Developer",
+      "title": "Founder, Twin Peaks tech Solutions",
+      "description": "Founded Twin Peaks Tech Solutions to craft premium digital experiences through modern web development, intuitive UI/UX design, and scalable technology solutions for businesses and startups.",
+      "tag": "Leadership",
+      "icon": "rocket"
+    },
+    {
+      "period": "2025 — Present",
+      "label": "Freelance Developer",
+      "title": "Freelance Developer",
+      "description": "Partnering with clients worldwide to design and build modern, high-performance web applications end to end.",
+      "tag": "Web Development",
+      "icon": "code"
+    },
+    {
+      "period": "2023 — 2025",
+      "label": "Learning & Building",
+      "title": "Full Stack Web Development",
+      "description": "Focused on mastering the modern web stack by shipping multiple independent projects and open-source contributions.",
+      "tag": "Growth",
+      "icon": "book"
+    },
+    {
+      "period": "2022 — 2025",
+      "label": "Academic Foundation",
+      "title": "Voorhees College",
+      "description": "Built a strong foundation in analytical thinking, algorithms, and problem solving.",
+      "tag": "Education",
+      "icon": "graduation"
+    }
+  ],
+  "coreStrengths": [
+    { "title": "Problem Solving", "description": "I enjoy untangling complex problems with clean, efficient code.", "icon": "target" },
+    { "title": "Creative Thinking", "description": "I turn ideas into meaningful, well-crafted digital experiences.", "icon": "lightbulb" },
+    { "title": "Fast Learner", "description": "I adapt quickly to new tools and love picking up what's next.", "icon": "rocket" },
+    { "title": "Team Collaborator", "description": "I work well in teams and enjoy building things together.", "icon": "users" }
+  ],
+  "education": {
+    "degree": "B.Sc. Physics",
+    "school": "Voorhees College",
+    "period": "2022 — 2025",
+    "gpa": "6.6 / 10"
+  },
+  "stats": [
+    { "label": "Projects Completed", "value": 20, "suffix": "+" },
+    { "label": "Happy Clients", "value": 15, "suffix": "+" },
+    { "label": "Hours of Coding", "value": 1000, "suffix": "+" },
+    { "label": "Years of Experience", "value": 2, "suffix": "+" }
+  ]
+}
