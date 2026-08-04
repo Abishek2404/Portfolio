@@ -1,57 +1,79 @@
-# Personal Portfolio
+# Portfolio Website
 
-A premium, single-page developer portfolio built with Next.js 15 (App Router), React 19, TypeScript, Tailwind CSS, and Framer Motion.
+A polished, single-page developer portfolio built with Next.js, React, TypeScript, Tailwind CSS, and Framer Motion. The site is designed to showcase your work, experience, and skills with a modern layout, smooth scrolling, and responsive sections.
 
-## Getting started
+## Features
+
+- Modern one-page portfolio layout
+- Smooth scrolling and animated transitions
+- Responsive design for desktop and mobile
+- SEO-friendly metadata and sitemap setup
+- Easily editable content through JSON and constants files
+
+## Tech Stack
+
+- Next.js 15
+- React 18
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lenis for smooth scrolling
+- Lucide React for icons
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18 or newer
+- npm or pnpm
+
+### Installation
 
 ```bash
 npm install
+```
+
+### Development
+
+```bash
 npm run dev
 ```
 
-Open http://localhost:3000.
+Then open http://localhost:3000 in your browser.
 
-## Before you deploy — personalize it
+### Production Build
 
-All personal content lives in a few files, so you never need to touch component code just to update your info:
-
-- **`lib/constants.ts`** — your name, role, tagline, bio, email, phone, location, birthday, resume URL, nav links, and social links.
-- **`data/projects.json`** — your project cards (title, description, tech stack, links).
-- **`data/skills.json`** — skill categories, proficiency bars, and tool logos.
-- **`data/experience.json`** — timeline entries, core strengths, education, and stats.
-- **`public/`** — drop in `favicon.ico`, `og-image.png` (1200×630), and `resume.pdf`.
-
-The placeholder content (name, email, phone, bio) is intentionally generic — swap it for your real details in `lib/constants.ts` and the `data/*.json` files.
-
-## Project structure
-
+```bash
+npm run build
+npm run start
 ```
-app/
-  layout.tsx        Root layout, metadata, Open Graph, JSON-LD
-  page.tsx           Assembles all sections
-  sitemap.ts          Dynamic sitemap.xml
-  robots.ts           Dynamic robots.txt
-  globals.css         Design tokens, base styles, focus states
-components/
-  navbar.tsx           Sticky nav with active-section tracking
-  footer.tsx
-  scroll-progress.tsx  Top progress bar
-  smooth-scroll-provider.tsx  Lenis smooth scroll
-  json-ld.tsx
-  ui/                  Button, Magnetic wrapper, AnimatedCounter
-  sections/            Hero, About, Skills, Projects, Experience, Contact
-lib/
-  constants.ts         Site content & config
-  animations.ts        Shared Framer Motion variants
-  utils.ts             cn() className helper
-data/
-  projects.json, skills.json, experience.json
+
+## Project Structure
+
+```text
+app/                Main app routes and page layout
+components/         Reusable UI and section components
+data/               Portfolio content in JSON files
+lib/                Site constants, animation helpers, utilities
+public/             Static assets such as images and files
 ```
+
+## Customize Your Content
+
+Update the following files to personalize the website:
+
+- `lib/constants.ts` — name, role, bio, contact details, links, and site metadata
+- `data/projects.json` — project cards and links
+- `data/skills.json` — skills and proficiency details
+- `data/experience.json` — experience timeline and achievements
+- `public/` — images, favicon, resume, and other static assets
+
+## Deployment
+
+This project is ready to deploy on Vercel or any platform that supports Next.js. Make sure to update your production URL in the site constants before publishing.
 
 ## Notes
 
-- **Color system**: white + navy (`#0B1F5E`) + accent blue (`#2563EB`) only, defined as Tailwind tokens in `tailwind.config.ts`. No dark mode.
-- **Motion**: respects `prefers-reduced-motion`; all scroll-triggered reveals fire once.
-- **Accessibility**: semantic landmarks, visible focus rings, skip-to-content link, `aria-label`s on icon-only controls.
-- **Contact form**: currently client-side only (shows a success state on submit). Wire `handleSubmit` in `components/sections/contact.tsx` to an API route, email service (e.g. Resend), or form backend of your choice.
-- **Deploying**: works out of the box on Vercel. Update `SITE.url` in `lib/constants.ts` to your production domain before deploying (it feeds metadata, Open Graph, JSON-LD, and the sitemap).
+- The site uses a custom color palette and minimalist styling defined in the Tailwind configuration.
+- Motion effects respect reduced-motion preferences.
+- The contact section is currently set up as a front-end interaction and can be connected to an email service or backend later.
