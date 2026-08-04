@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/AR_logo_traced.svg",
   },
 };
 
