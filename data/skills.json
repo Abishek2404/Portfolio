@@ -41,12 +41,12 @@
     { "name": "GitHub", "imageUrl": "https://cdn.simpleicons.org/github/181717" },
     { "name": "VS Code", "imageUrl": "/vs-code.png" },
     { "name": "Figma", "imageUrl": "/figma.png" },
-    { "name": "Firebase", "imageUrl": "/firebase.png" },
+    { "name": "Firebase", "imageUrl": "/Firebase.png" },
     { "name": "Vercel", "imageUrl": "https://cdn.simpleicons.org/vercel/000000" },
     { "name": "Docker", "imageUrl": "https://cdn.simpleicons.org/docker/2496ED" },
     { "name": "Postman", "imageUrl": "https://cdn.simpleicons.org/postman/FF6C37" },
     {"name":"Power Bi", "imageUrl":"/power-bi.png"},
-    {"name":"LangChain", "imageUrl":"/langchain.png"},
+    {"name":"LangChain", "imageUrl":"/LangChain.png"},
     {"name":"AWS", "imageUrl":"/aws.png"},
     {"name":"n8n", "imageUrl":"/n8n.png"}
   ]
